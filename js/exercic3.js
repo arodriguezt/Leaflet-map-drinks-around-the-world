@@ -87,11 +87,15 @@ function addMarker(name, coords) {
         ", " +
         data.drinks[0].strIngredient3;
       const coctelInstructions = data.drinks[0].strInstructions;
+      
       //Creem un popup amb tota la informació de la beguda
       marker.bindPopup(
         `<img src="${coctelImg}" width="95%"><h1>${coctelName}</h1><p>Ingredientes: ${coctelIngredients}</p><p>Instrucciones: ${coctelInstructions}</p>`
       );
-      map.setView(marker.latLng(),6);
+      //Fem zoom en funcio de la latitud i longitud del marcador
+      map.setView(marker.getLatLng(),6);
+      //Obrim el pop up amb la informacio de la beguda
+      marker.openPopup();
     } catch (error) {
       console.error(error);
     }
