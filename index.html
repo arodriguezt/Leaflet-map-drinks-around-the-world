@@ -1,0 +1,27 @@
+<head>
+  <head>
+  <script src="js/mouseEffect.js" defer></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+  integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+  crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+  integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+  crossorigin=""></script>  
+  <link rel="stylesheet" href="css/map.css">
+  <script src="js/exercic3.js" defer></script>
+  <link rel="stylesheet" href="css/mouseEffect.css">
+</head>
+
+<body>
+  <div class="container" id="container">
+    <div id="cardContainer" class="cardContainer">
+      <div class="cardContent">
+        <h1>Descobreix les begudes del mon!</h1><hr>
+        <h4>Clica sobre cada marcador per observar informació de la beguda!</h4><hr>
+        <span>Aquest codi crea un mapa interactiu utilitzant la llibreria Leaflet i afegeix diversos marcadors a llocs específics del mapa, cadascun representant un còctel diferent. En passar el cursor sobre un marcador, s'envia una sol·licitud a l'API de begudes per obtenir la imatge de la beguda corresponent i es canvia la imatge del marcador en el mapa per mostrar la imatge. En fer clic en un marcador, es mostra una finestra emergent amb informació detallada del còctel, incloent el seu nom, ingredients i instruccions.</span>
+      </div>
+    </div>
+    <div id="map"></div>
+  </div>
+</body>
+

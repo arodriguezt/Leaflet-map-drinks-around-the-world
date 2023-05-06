@@ -1,0 +1,61 @@
+
+html,body{
+  height:100%;
+  width:100%;
+  background-color:rgb(20, 20, 20);
+}
+#map { height: 98vh; width: 100%; }
+select {
+  width: 30%;
+  font-size: 2rem
+} 
+.marcador {
+  border-radius: 50% !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.marcador:hover {
+  border-radius: 50% !important;
+}
+#map{
+  border-radius:10px;
+  height:97vh;
+}
+div.leaflet-popup-content-wrapper {
+    background-color: rgb(20, 20, 20);
+    border: 1px solid rgb(255 255 255 / 1000%);
+}
+.leaflet-popup-content img {
+    border-radius:5%;
+    width:50%;
+  }
+.leaflet-popup-content h1, .leaflet-popup-content {
+    text-align: center;
+  }
+.leaflet-popup-content p {
+    color: rgba(255, 255, 255, 0.6);
+    margin: 18px 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+h1,h4,span{
+  color: rgb(240, 240, 240);
+ font-family: "Rubik", sans-serif;
+ font-weight: 400;
+ margin: 0px;
+}
+h1{
+font-size:50px;
+color: rgb(240, 240, 240)
+}
+h4{
+color: rgba(255, 255, 255, 0.6);
+font-size:25px;
+line-height: 30px;
+}
+.cardContent > span{
+color: rgba(255, 255, 255, 0.3);
+line-height:35px;
+}
